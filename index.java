@@ -4,7 +4,7 @@ public class index {
     int[] scores = new int[] { 80, 65, 70, 95 };
 
     for (int i = 0; i < names.length; i++) {
-      System.out.print(names[i] + "さんの点数：" + scores[i] + "点\n");
+      System.out.println(names[i] + "さんの点数：" + scores[i] + "点");
     }
   }
 }

@@ -16,7 +16,7 @@ public class Greeting {
       message = "timeには0~24の値を入力してください。";
     }
 
-    System.out.print(message);
-    System.out.print(greeting);
+    System.out.println(message);
+    System.out.println(greeting);
   }
 }

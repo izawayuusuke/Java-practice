@@ -7,6 +7,6 @@ public class For {
     }
 
     System.out.print("2の5乗は、");
-    System.out.print(answer);
+    System.out.println(answer);
   }
 }

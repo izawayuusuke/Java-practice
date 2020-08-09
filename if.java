@@ -4,17 +4,17 @@ public class IF {
     // System.out.print("只今の時刻は" + time + "時です。");
     // System.out.print("おはようございます。");
     if ((time >= 4) && (time <= 10)) {
-      System.out.print("只今の時刻は" + time + "時です。");
-      System.out.print("おはようございます。");
+      System.out.println("只今の時刻は" + time + "時です。");
+      System.out.println("おはようございます。");
     } else if ((time >= 11) && (time <= 17)) {
-      System.out.print("只今の時刻は" + time + "時です。");
-      System.out.print("こんにちは");
+      System.out.println("只今の時刻は" + time + "時です。");
+      System.out.println("こんにちは");
     } else if ((time == 18)) {
-      System.out.print("只今の時刻は" + time + "時です。");
-      System.out.print("こんばんは");
+      System.out.println("只今の時刻は" + time + "時です。");
+      System.out.println("こんばんは");
     } else if ((time >= 19 && time <= 24) || (time >= 0 && time <= 3)) {
-      System.out.print("只今の時刻は" + time + "時です。");
-      System.out.print("おやすみなさい");
+      System.out.println("只今の時刻は" + time + "時です。");
+      System.out.println("おやすみなさい");
     }
   }
 }
